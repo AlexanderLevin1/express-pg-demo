@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "PORT=3002 DATABASE_URL=postgres://localhost/express_pg_demo_db nodemon server.js"
   },
   "keywords": [],
   "author": "",
